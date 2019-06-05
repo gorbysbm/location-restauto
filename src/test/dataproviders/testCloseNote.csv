@@ -1,0 +1,2 @@
+description,verbType,statusCode,user,passwd,respContentType
+TC: close note - using POST,POST,200,xoneva@host-info.com,Testuser12345,application/xml

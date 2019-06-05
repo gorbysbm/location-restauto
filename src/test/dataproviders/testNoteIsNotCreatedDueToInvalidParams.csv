@@ -1,0 +1,6 @@
+description,lon,lat,text,statusCode,errorMessage
+TC: create note - missing lon,,24.2300081,This is a note,400,No lon was given
+TC: create note - missing lat,46.2094942,,This is a note,400,No lat was given
+TC: create note - lon is not a num, XXX,24.2300081,This is a note,400,lon was not a number
+TC: create note - lat is not a num,46.2094942,XXX,This is a note,400,lat was not a number
+TC: create note - missing note text,46.2094942,24.2300081,,400,No text was given

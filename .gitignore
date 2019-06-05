@@ -1,0 +1,16 @@
+*.class
+*.MF
+out/
+build/
+.idea/**/*
+.idea/
+.gradle/
+.gradle/**/*
+gradlew
+gradlew.bat
+gradle/wrapper
+settings.gradle
+*.iml
+target/
+**/*/.DS_Store
+

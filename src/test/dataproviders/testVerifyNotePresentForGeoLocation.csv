@@ -1,0 +1,2 @@
+description,lon,lat,statusCode,respContentType
+TC: verify note exists in boundingbox,46.2094942,24.2300081,200,application/xml

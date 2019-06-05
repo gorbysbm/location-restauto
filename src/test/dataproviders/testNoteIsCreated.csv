@@ -1,0 +1,3 @@
+description,lon,lat,text,statusCode,noteStatus,noteCommentStatus,respContentType
+TC: create note 1,46.2094942,24.2300081,This is a note1,200,open,opened,application/xml
+TC: create note 2,46.2094942,24.2300081,This is a note2,200,open,opened,application/xml

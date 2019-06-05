@@ -1,0 +1,8 @@
+description,verbType,noteId,statusCode,user,passwd,respContentType
+TC: invalid noteId - valid login,POST,17736770000000,404,xoneva@host-info.com,Testuser12345,text/plain
+TC: invalid password,POST,1773677,401,xoneva@host-info.com,Testuser12345FAIL,text/plain
+TC: invalid username,POST,1773677,401,xoneva@hostFAIL-info.com,Testuser12345,text/plain
+TC: close note - using PUT,PUT,16230,405,xoneva@host-info.com,Testuser12345,application/xml
+TC: close note - using PATCH,PATCH,16230,405,xoneva@host-info.com,Testuser12345,application/xml
+TC: close note - using DELETE,DELETE,16230,405,xoneva@host-info.com,Testuser12345,application/xml
+TC: close previously closed note - valid login,POST,16230,409,xoneva@host-info.com,Testuser12345,text/plain

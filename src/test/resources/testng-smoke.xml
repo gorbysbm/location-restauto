@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Location Api Suite" parallel="methods">
+    <parameter name="isDocker"  value="false"/>
+    <parameter name="testEnv"  value="dev"/>
+
+    <test name="TestNotes">
+        <groups>
+            <run>
+                <include name="smoke"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="TestNotes" />
+        </classes>
+    </test>
+</suite>
